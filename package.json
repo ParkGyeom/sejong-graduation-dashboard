@@ -19,6 +19,7 @@
     "radix-ui": "^1.6.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "react-router-dom": "^7.18.0",
     "shadcn": "^4.11.0",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.6.0",
@@ -38,5 +39,9 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12"
+  },
+  "description": "세종대학교 졸업요건 및 공학인증 분석 프론트엔드",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
   }
 }
