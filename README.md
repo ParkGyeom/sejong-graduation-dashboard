@@ -6,7 +6,9 @@
 
 이수 학점, 졸업요건, 공학인증 현황을 한 화면에서 확인하는 해커톤 프로젝트입니다.
 
-[![CI](https://github.com/sejonghackathon/front/actions/workflows/ci.yml/badge.svg)](https://github.com/sejonghackathon/front/actions/workflows/ci.yml)
+**ParkGyeom · Frontend Portfolio**
+
+[![CI](https://github.com/ParkGyeom/sejong-graduation-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/ParkGyeom/sejong-graduation-dashboard/actions/workflows/ci.yml)
 ![React 19](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
 ![TypeScript 6](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)
 ![Vite 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
@@ -21,6 +23,10 @@
 학생이 이수한 과목을 졸업요건과 공학인증 기준에 대조하고, 앞으로 채워야 할 항목을 파악할 수 있도록 돕습니다. 학사정보시스템에서 내려받은 성적 Excel을 업로드하면 백엔드 분석 결과를 학점 게이지, 영역별 과목 목록, 인증 상태로 보여줍니다.
 
 이 저장소는 **프론트엔드**를 담고 있습니다. 로그인·성적 파싱·졸업요건 계산·ABEEK 판정은 별도 백엔드와 연동합니다. 현재는 해커톤 프로토타입이며, 일부 인증 카드는 목업이고 이수체계도는 구현 예정입니다.
+
+## 저장소 안내
+
+이 저장소는 세종대학교 해커톤 팀 프로젝트의 프론트엔드를 개인 포트폴리오용으로 정리한 별도 저장소입니다. 원본 팀 저장소는 `sejonghackathon/front`이며, 기존 Git 이력을 유지합니다. 프로젝트 전체의 기능과 프론트엔드 설계 내용을 소개하며, 백엔드 구현은 포함하지 않습니다.
 
 ## 주요 기능
 
@@ -78,8 +84,8 @@ flowchart LR
 Node.js 24와 npm을 기준으로 합니다. Node 버전은 `.nvmrc`에 지정되어 있습니다.
 
 ```bash
-git clone https://github.com/sejonghackathon/front.git
-cd front
+git clone https://github.com/ParkGyeom/sejong-graduation-dashboard.git
+cd sejong-graduation-dashboard
 nvm use
 npm ci
 cp .env.example .env
